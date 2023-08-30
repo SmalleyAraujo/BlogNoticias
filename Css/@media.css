@@ -1,0 +1,73 @@
+@media screen and (max-width : 730px) {
+    #pagina{
+        min-width: 360px;
+        max-width: 390px;       
+        height: auto;   
+    }
+    
+    nav{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+    }
+    #linkNav{
+        display: none;   
+
+    }
+    #linkNavList{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 30px;        
+    }
+    nav ul{              
+        display: flex;
+        justify-content:space-between;
+        gap: 5px;   
+    }
+    
+   #navButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;    
+    }
+
+    header{
+    width: 100%;
+    height: auto;    
+    
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    }
+    #post{
+        width: 100%;
+        height: auto;               
+        line-height: 30px;
+        
+    }
+
+   
+   main{
+    width: 100%;
+    height: auto;    
+    }
+
+    #controlPosts{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+
+
+   
+    
+}

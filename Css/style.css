@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Inicio Nav */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(248, 225, 182);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+     
+}
+
+nav ul{
+    width: 100%;
+    list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;   
+
+}
+nav a{
+    text-decoration: none;
+    
+}
+
+.linkLilas{
+    color: rgb(102, 50, 224);
+}
+
+.linkRosa{
+    color: rgb(224, 50, 209);
+}
+
+#navButton{
+    width: 10%; 
+    display: none;
+    margin-left: 230px;
+    
+}
+nav button{
+    width: 50px;
+    height: 50px; 
+    border-radius: 10px;   
+}
+
+#btnButtonMenu{
+    border: 3px solid rgb(102, 50, 224);
+    background-color: white;
+    color: rgb(102, 50, 224);
+    transition: 1s;
+    
+}
+
+#btnButtonMenu:hover{    
+    background-color: rgb(102, 50, 224);
+    color: white;
+    font-weight: bolder;
+    transition: 1s;    
+}
+
+
+
+/* Fim Nav */
+
+/* Inicio de Header */
+header{
+    width: 50%;
+    height: 600px;
+    margin: 50px auto;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+#post{
+    width: 40%;
+    height: 500px;
+    margin-top: 30px;
+    padding: 30px 30px; 
+    line-height: 30px;
+}
+#imgHeader{
+    width: 50%;
+    height: 300px;
+    background-image: url(../img/ux-indonesia-2NDWFiD0UMM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;      
+     
+}
+
+
+/* Fim de Header */
+
+/* Inicio Main */
+main{
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+}
+p{
+    text-align: justify;
+    padding-left: 15px;
+}
+h1{
+    text-align: center;
+}
+/* Inicio post1 */
+
+.marcacaoSublinhado{
+    width: 40%;
+    border: none;
+    border-bottom: 3px solid palevioletred;
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+}
+/* fim post2 */
+
+/* inicio post3 */
+
+#post2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;   
+}
+
+
+#controlPosts{
+    display: flex;
+    justify-content:space-around;    
+}
+
+#dimensoesImg{
+    width: 200px;    
+    height: 200px;
+    border: 5px solid red;
+}
+
+#conteudo{
+    width: 60%;
+    height: auto;
+}
+.controlImg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+#imgEsportes{    
+    background-image: url(../imagens/natacao.jpg);   
+}
+
+#imgEconomia{   
+    background-image: url(../imagens/dinheiro.jpg);    
+}
+
+#imgClima{
+    background-image: url(../imagens/clima.jpg);
+}
+.colorH3{
+    color: rgb(224, 50, 209);
+}
+
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background-color: rgb(219,219,219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#categoriasGrupo{
+    width: 90%;
+    height: 500px;    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.categoria{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#mobile{
+    background-image: url(../img/celulares.jpg);
+}
+#desktop{
+    background-image: url(../img/fone.jpg);
+}
+#flowwork{
+    background-image: url(../img/headway-5QgIuuBxKwM-unsplash.jpg);
+}
+
+.categoriaDescricao{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: blue;
+    margin: 20px 0px;
+    border-radius: 20px;
+    display: none;
+}
+
+
+
+
+/* Fim Main */
