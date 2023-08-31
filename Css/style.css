@@ -84,7 +84,7 @@ nav button{
     display: flex; 
     justify-content:space-between;
 } 
-#sumir{
+.sumir{
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -126,7 +126,7 @@ nav button{
     display: none;
 }
 
-#linkEntretenimento{
+#linkDiversao{
     display: none;
 }
 
@@ -262,7 +262,7 @@ hr{
 
 
 
-
+/* Inicio Seção de Vendas Promocionais*/
 
 section{
     width: 100%;
@@ -294,8 +294,8 @@ section{
     border-radius: 20px;
 }
 
-#mobile{
-    background-image: url(../img/celulares.jpg);
+#amazon{
+    background-image: url(../imagens/amazon.jpg);
 }
 #desktop{
     background-image: url(../img/fone.jpg);

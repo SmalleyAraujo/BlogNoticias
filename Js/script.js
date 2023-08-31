@@ -71,17 +71,121 @@ sumir3.on("click", function(){
 
 // Fim Economia
 
+// Inicio Clima
+const clima = $("#clima")
+const linkClima = $("#linkClima")
+const iconExp4 = $("#iconExp4")
+const sumir4 = $("#sumir4")
 
 
+clima.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkClima.slideDown(500)     
+        
+     iconExp4.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir4.on("click", function(){
+    
+    linkClima.slideUp(500)
+    iconExp4.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Clima
+
+// Inicio Saude
+const saude = $("#saude")  
+const linkSaude = $("#linkSaude") 
+const iconExp5 = $("#iconExp5")
+const sumir5 = $("#sumir5")
+
+saude.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkSaude.slideDown(500)     
+        
+     iconExp5.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir5.on("click", function(){
+    
+    linkSaude.slideUp(500)
+    iconExp5.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Saude
+
+// Inicio Viagens
+const viagens = $("#viagens")
+const linkViagens = $("#linkViagens")
+const iconExp6 = $("#iconExp6")
+const sumir6 = $("#sumir6")
+
+viagens.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkViagens.slideDown(500)     
+        
+     iconExp6.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir6.on("click", function(){
+    
+    linkViagens.slideUp(500)
+    iconExp6.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Viagens
+
+// Inicio Inovação
+const inovacao = $("#inovacao")
+const linkInovacao = $("#linkInovacao")
+const iconExp7 = $("#iconExp7")
+const sumir7 = $("#sumir7")
+
+
+inovacao.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkInovacao.slideDown(500)     
+        
+     iconExp7.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir7.on("click", function(){
+    
+    linkInovacao.slideUp(500)
+    iconExp7.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Inovação
+
+// Inicio
+const diversao = $("#diversao")
+const linkDiversao = $("#linkDiversao")
+const iconExp8 = $("#iconExp8")
+const sumir8 = $("#sumir8")
+
+
+diversao.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+    linkDiversao.slideDown(500)     
+        
+     iconExp8.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir8.on("click", function(){
+    
+    linkDiversao.slideUp(500)
+    iconExp8.animate({rotate: "-360deg"}, {duration:500}) 
+})
+// Fim
 
 
 // const mobile =document.getElementById("mobile")
 // const mobile =document.querySelector("#mobile")
- const mobile = $("#mobile")
+ const amazon = $("#amazon")
  const desktop = $("#desktop")
  const flowwork = $("#flowwork")
 
- const descricaoMObile = $("#descricaoMObile")
+ const descricaoAmazon = $("#descricaoAmazon")
  const descricaoDescktop = $("#descricaoDescktop")
  const descricaoFlowwork = $("#descricaoFlowwork")
 
@@ -91,19 +195,19 @@ sumir3.on("click", function(){
 
 //  }
 // function anonima
-mobile.on('click' , function(){
-    descricaoMObile.slideToggle(500)
+amazon.on('click' , function(){
+    descricaoAmazon.slideToggle(500)
     descricaoDescktop.slideUp(100)
     descricaoFlowwork.slideUp(100)
 })
 desktop.on('click' , function(){
     descricaoDescktop.slideToggle(500)
     descricaoFlowwork.slideUp(100)
-    descricaoMObile.slideUp(100)
+    descricaoAmazon.slideUp(100)
 })
 flowwork.on('click' , function(){
     descricaoFlowwork.slideToggle(500)
     descricaoDescktop.slideUp(100)
-    descricaoMObile.slideUp(100)
+    descricaoAmazon.slideUp(100)
 })
 
