@@ -174,8 +174,7 @@ hr{
 
 #controlPosts{
     display: flex;
-    justify-content:space-around; 
-    background-color: bisque;   
+    justify-content:space-around;       
 }
 
 #dimensoesImg{
