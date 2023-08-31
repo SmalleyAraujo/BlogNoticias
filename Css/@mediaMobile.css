@@ -17,12 +17,14 @@
 
     }
     #linkNavList{
-        width: 90%;
-        height: 300px;
+        width: 30vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         padding-top: 30px;
-        padding-left: 30px;        
+        padding-left: 30px;     
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
     }
     nav ul{              
         display: flex;
@@ -30,9 +32,8 @@
         gap: 5px;   
     }
     
-   #navButton{
-
-    
+   #navButton{    
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;    
