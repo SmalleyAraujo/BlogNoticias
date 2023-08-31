@@ -13,7 +13,7 @@
 /* Inicio Nav */
 nav{
     width: 100%;
-    height: 80px;
+    height: 100px;    
     background-color: rgb(248, 225, 182);
     display: flex;
     justify-content:center;
@@ -21,14 +21,18 @@ nav{
      
 }
 
-nav ul{
+
+#linkNavList{
     width: 100%;
+    height: auto;
     list-style: none; 
     display: flex;
     justify-content: space-around;
     gap: 90px;   
 
 }
+
+
 nav a{
     text-decoration: none;
     
@@ -40,12 +44,12 @@ nav a{
 
 .linkRosa{
     color: rgb(224, 50, 209);
+    
 }
 
 #navButton{
-    width: 10%; 
-    display: none;
-    margin-left: 230px;
+    width: 100%; 
+    display: none;  
     
 }
 nav button{
@@ -69,6 +73,23 @@ nav button{
     transition: 1s;    
 }
 
+#blocosNav{
+    width: 100%;
+    height: auto;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;   
+    
+}
+#linkNoticias{
+    display: none; 
+    width: 15%;
+    height: auto;
+    list-style: none;
+    line-height: 40px;
+   
+}
 
 
 /* Fim Nav */
@@ -116,11 +137,9 @@ main{
 }
 p{
     text-align: justify;
-    padding-left: 15px;
+    padding: 15px 20px;
 }
-h1{
-    text-align: center;
-}
+
 /* Inicio post1 */
 
 .marcacaoSublinhado{
@@ -183,9 +202,28 @@ hr{
 #imgClima{
     background-image: url(../imagens/clima.jpg);
 }
+
+#imgSaude{
+    background-image: url(../imagens/saude.jpg);
+}
+#imgViagens{
+    background-image: url(../imagens/viagens.jpg);
+}
+
+#imgNovidadesTec{
+    background-image: url(../imagens/inovações.jpg);
+}
+#imgEntret{
+    background-image: url(../imagens/entretenimento.jpg);
+}
+
+
 .colorH3{
     color: rgb(224, 50, 209);
 }
+
+
+
 
 
 section{

@@ -12,34 +12,45 @@
 <body>
     <div id="pagina">
         <nav>
+           
             <div id="linkNav">
+                
                 <ul id="linkNavList">
                     <li>
                         <h1 class="linkLilas">Home</h1>
                     </li>
                     <li>
-                        <a href="#" class="linkLilas">Notícias</a>
+                        <a href="#" class="linkRosa" id="noticias">Notícias</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25" id="iconExp" > 
+                                          
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Esportes</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Economia</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Clima</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Saúde</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Viagens</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
-                        <a href="#" class="linkRosa">Famosos</a>
+                        <a href="#" class="linkRosa">Novidades Tecnológicas</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                     <li>
                         <a href="#" class="linkRosa">Entretenimento</a>
+                        <img src="icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="25">
                     </li>
                 </ul>
             </div>
@@ -47,7 +58,26 @@
                 <button type="button" id="btnButtonMenu"><img src="icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="" width="30"></button>
                
             </div>
+            
         </nav>
+        <div id="blocosNav">
+            <ul id="linkNoticias">
+                <li>
+                    <a href="#" class="linkRosa">Esportes</a>
+                </li>
+                <li>
+                    <a href="#" class="linkRosa">Economia</a>
+                </li>
+                <li>
+                    <a href="#" class="linkRosa">Clima</a>
+                </li>
+                <li>
+                    <a href="#" class="linkRosa">Saúde</a>
+                </li>
+            </ul>     
+
+        </div>
+        
         <header>
             <div id="post">
                 <h1>Bem vindo ao meu blog de notícias!</h1>  
@@ -72,7 +102,9 @@
                     </div>
                 </div>
                 <div id="controlPosts">
-                    <div class="controlImg" id="imgEconomia"></div>
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgEconomia"></div>
+                    </div>                    
                     <div id="conteudo">
                         <h3 class="colorH3">Novidades relacionadas a Economia</h3>
                         <h1>Economia</h1>
@@ -80,21 +112,57 @@
                     </div>
                 </div>
                 <div id="controlPosts">
-                    <div class="controlImg" id="imgClima"></div>
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgClima"></div>
+                    </div>                    
                     <div id="conteudo">
-                        <h3 class="colorH3">Novidades relacionadas a Mobile</h3>
-                        <h1>CELULARES DE 2023</h1>
+                        <h3 class="colorH3">Novidades relacionadas a Clima</h3>
+                        <h1>Clima</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio eius odio laudantium inventore cum! Fugiat amet pariatur vitae accusantium rem soluta, natus quo odit dicta quia sequi enim laboriosam!</p>
                     </div>
                 </div>
                 <div id="controlPosts">
-                    <div class="controlImg" id="imgDigitando"></div>
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgSaude"></div>
+                    </div>                    
                     <div id="conteudo">
-                        <h3 class="colorH3">Novidades relacionadas a Mobile</h3>
-                        <h1>CELULARES DE 2023</h1>
+                        <h3 class="colorH3">Novidades relacionadas a Saude</h3>
+                        <h1>Saude</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio eius odio laudantium inventore cum! Fugiat amet pariatur vitae accusantium rem soluta, natus quo odit dicta quia sequi enim laboriosam!</p>
                     </div>
                 </div>
+                <div id="controlPosts">
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgViagens"></div>
+                    </div>                    
+                    <div id="conteudo">
+                        <h3 class="colorH3">Novidades relacionadas a Viagens</h3>
+                        <h1>Viagens</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio eius odio laudantium inventore cum! Fugiat amet pariatur vitae accusantium rem soluta, natus quo odit dicta quia sequi enim laboriosam!</p>
+                    </div>
+                </div>
+                <div id="controlPosts">
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgNovidadesTec"></div>
+                    </div>                    
+                    <div id="conteudo">
+                        <h3 class="colorH3">Novidades Tecnológicas</h3>
+                        <h1>Inovação</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio eius odio laudantium inventore cum! Fugiat amet pariatur vitae accusantium rem soluta, natus quo odit dicta quia sequi enim laboriosam!</p>
+                    </div>
+                </div>
+                <div id="controlPosts">
+                    <div id="dimensoesImg">
+                        <div class="controlImg" id="imgEntret"></div>
+                    </div>                    
+                    <div id="conteudo">
+                        <h3 class="colorH3">Novidades no entretenimento</h3>
+                        <h1>2023</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio eius odio laudantium inventore cum! Fugiat amet pariatur vitae accusantium rem soluta, natus quo odit dicta quia sequi enim laboriosam!</p>
+                    </div>
+                </div>
+                
+
             </div>
 
             <section id="categoria">

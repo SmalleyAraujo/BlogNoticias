@@ -30,6 +30,8 @@
     }
     
    #navButton{
+
+    
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;    
@@ -54,16 +56,30 @@
     }
 
    
-   main{
-    width: 100%;
-    height: auto;    
+    main{
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+       
+    }
+    #post2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;   
     }
 
     #controlPosts{
         display: flex;
         flex-direction: column;
     }
-    
+    #conteudo{
+        width: 100%;
+        height: auto;
+    }
 
 
 
