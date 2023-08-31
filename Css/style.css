@@ -153,14 +153,20 @@ header{
     padding: 30px 30px; 
     line-height: 30px;
 }
-#imgHeader{
+
+.confImag{
     width: 50%;
     height: 300px;
-    background-image: url(../imagens/ideias.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;      
-     
+    border-radius: 15px;
+}
+#imgHeader{    
+    background-image: url(../imagens/ideias.jpg);    
+}
+
+#imgHeaderNoticias{
+    background-image: url(../imagens/nasa-rTZW4f02zY8-unsplash.jpg);
 }
 
 
