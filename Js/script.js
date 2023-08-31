@@ -7,7 +7,8 @@ btnButtonMenu.on('click' , function(){
     linkNav.slideToggle(2000)
 })
 
-// Fim button menu
+// Fim button menu 
+// Inicio Noticias
 const noticias1 = $("#noticias")
 const linkNoticias = $("#linkNoticias")
 const iconExp = $("#iconExp")
@@ -26,15 +27,49 @@ sumir.on("click", function(){
     iconExp.animate({rotate: "-360deg"}, {duration:500}) 
 })
 
-// $("#direita").on("click", function(){
-//     $("#caixa").animate({marginLeft: "500px", rotate: "360deg"},{duration:2000,complete : ()=>{alert("Me contrata :)")}})
-// })
+// Fim Noticias
+// Inicio Esportes
+const esportes = $("#esportes")
+const linkEsportes = $("#linkEsportes")
+const iconExp2 = $("#iconExp2")
+const sumir2 =$("#sumir2")
 
-// $("#esquerda").on("click", function(){
-//     $("#caixa").animate({marginLeft: "0px", rotate: "-360deg", marginTop: "500px"},{duration:2000})
-// })
 
+esportes.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkEsportes.slideDown(500)     
+        
+     iconExp2.animate({rotate: "-180deg"}, {duration:500})  
+})
 
+sumir2.on("click", function(){
+    
+    linkEsportes.slideUp(500)
+    iconExp2.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Esportes
+
+// Inicio Economia
+const economia = $("#economia")
+const linkEconomia = $("#linkEconomia") 
+const iconExp3 = $("#iconExp3")
+const sumir3 = $("#sumir3")
+
+economia.on("click", function(){    
+    // $("#caixa").fadeToggle(500)
+     linkEconomia.slideDown(500)     
+        
+     iconExp3.animate({rotate: "-180deg"}, {duration:500})  
+})
+
+sumir3.on("click", function(){
+    
+    linkEconomia.slideUp(500)
+    iconExp3.animate({rotate: "-360deg"}, {duration:500}) 
+})
+
+// Fim Economia
 
 
 
