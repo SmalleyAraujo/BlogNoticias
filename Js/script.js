@@ -11,22 +11,20 @@ btnButtonMenu.on('click' , function(){
 const noticias1 = $("#noticias")
 const linkNoticias = $("#linkNoticias")
 const iconExp = $("#iconExp")
+const sumir =$("#sumir")
 
 noticias1.on("click", function(){    
     // $("#caixa").fadeToggle(500)
      linkNoticias.slideDown(500)     
         
-     iconExp.animate({rotate: "-180deg"}, {duration:500})            
-        
-    
-    if(linkNoticias.style.display === "none"){
-        iconExp.animate({rotate: "180deg"}, {duration:500})
-    }  
-     
-   
+     iconExp.animate({rotate: "-180deg"}, {duration:500})  
 })
 
-
+sumir.on("click", function(){
+    
+    linkNoticias.slideUp(500)
+    iconExp.animate({rotate: "-360deg"}, {duration:500}) 
+})
 
 // $("#direita").on("click", function(){
 //     $("#caixa").animate({marginLeft: "500px", rotate: "360deg"},{duration:2000,complete : ()=>{alert("Me contrata :)")}})
