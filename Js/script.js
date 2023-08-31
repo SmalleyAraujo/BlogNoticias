@@ -182,12 +182,12 @@ sumir8.on("click", function(){
 // const mobile =document.getElementById("mobile")
 // const mobile =document.querySelector("#mobile")
  const amazon = $("#amazon")
- const desktop = $("#desktop")
- const flowwork = $("#flowwork")
+ const aliexpress = $("#aliexpress")
+ const mcdonalds = $("#mcdonalds")
 
  const descricaoAmazon = $("#descricaoAmazon")
- const descricaoDescktop = $("#descricaoDescktop")
- const descricaoFlowwork = $("#descricaoFlowwork")
+ const descricaoAliexpress = $("#descricaoAliexpress")
+ const descricaoMcdonalds = $("#descricaoMcdonalds")
 
 //  mobile.addEventlistener('click', mostrarDescMobile)
 
@@ -197,17 +197,17 @@ sumir8.on("click", function(){
 // function anonima
 amazon.on('click' , function(){
     descricaoAmazon.slideToggle(500)
-    descricaoDescktop.slideUp(100)
-    descricaoFlowwork.slideUp(100)
+    descricaoAliexpress.slideUp(100)
+    descricaoMcdonalds.slideUp(100)
 })
-desktop.on('click' , function(){
-    descricaoDescktop.slideToggle(500)
-    descricaoFlowwork.slideUp(100)
+aliexpress.on('click' , function(){
+    descricaoAliexpress.slideToggle(500)
     descricaoAmazon.slideUp(100)
+    descricaoMcdonalds.slideUp(100)
 })
-flowwork.on('click' , function(){
-    descricaoFlowwork.slideToggle(500)
-    descricaoDescktop.slideUp(100)
+mcdonalds.on('click' , function(){
+    descricaoMcdonalds.slideToggle(500)
+    descricaoAliexpress.slideUp(100)
     descricaoAmazon.slideUp(100)
 })
 

@@ -268,20 +268,20 @@ section{
     width: 100%;
     height: auto;
     padding: 10px 0px;
+    margin-top: 60px;
     background-color: rgb(219,219,219);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
 #categoriasGrupo{
     width: 90%;
-    height: 500px;    
+    height: 400px;    
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .categoria{
@@ -292,16 +292,27 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
+    margin-top: 80px;
+}
+
+.categoriaPublic{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;       
 }
 
 #amazon{
     background-image: url(../imagens/amazon.jpg);
 }
-#desktop{
-    background-image: url(../img/fone.jpg);
+#aliexpress{
+    background-image: url(../imagens/aliexpress.jpg);
 }
-#flowwork{
-    background-image: url(../img/headway-5QgIuuBxKwM-unsplash.jpg);
+#mcdonalds{
+    background-image: url(../imagens/mcdonalds.jpg);
 }
 
 .categoriaDescricao{
@@ -313,8 +324,5 @@ section{
     border-radius: 20px;
     display: none;
 }
-
-
-
 
 /* Fim Main */
