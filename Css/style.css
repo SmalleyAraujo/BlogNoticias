@@ -4,7 +4,8 @@
 }
 
 #pagina{
-    width: 100%;
+    min-width: 1000px;
+    max-width: 1300px;
     height: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -26,9 +27,8 @@ nav{
     width: 100%;
     height: auto;
     list-style: none; 
-    display: flex;
-    justify-content: space-around;
-    gap: 90px;   
+    display: flex;    
+    gap: 5px;
 
 }
 
@@ -78,16 +78,21 @@ nav button{
     height: auto;
     background-color: cornflowerblue;
     display: flex;
-    justify-content: space-around;
-    gap: 90px;   
-    
+    justify-content:space-between;    
 }
+.close{
+    display: flex; 
+    justify-content:space-between;
+} 
+
+
 #linkNoticias{
     display: none; 
-    width: 15%;
+    width: 10%;
     height: auto;
     list-style: none;
     line-height: 40px;
+    border: 3px outset rgb(214, 212, 212);
    
 }
 
@@ -131,7 +136,7 @@ header{
 
 /* Inicio Main */
 main{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin: 0px auto;
 }
@@ -169,7 +174,8 @@ hr{
 
 #controlPosts{
     display: flex;
-    justify-content:space-around;    
+    justify-content:space-around; 
+    background-color: bisque;   
 }
 
 #dimensoesImg{
