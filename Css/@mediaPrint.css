@@ -1,0 +1,32 @@
+/* Fontes arial e espaçamento  */
+
+/* Área de impressão modelo de configuração  */
+@media print{
+    #pagina{        
+        color:rgb(77, 71, 71);         
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav{
+        height: 40px;
+        background-color: dimgrey;
+    }
+    #post2{
+        margin-top: 80px;
+        gap: 20px;
+    }
+
+    #categoria{
+        margin-top: 0px;
+    }
+    .printAjust{
+        padding-top: 100px;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    p{
+        font-size: 12pt;
+        background-color: dimgrey;
+        
+    }
+}
