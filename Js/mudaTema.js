@@ -1,7 +1,9 @@
 const mudaTema = $("#mudaTema")
-const paginaTotal = $("#pagina")
-const header1 = $("#header")
-const textoArea = $("#textoArea")
+const pagina = $("#pagina")
+const bemVindo = $("#bemVindo")
+const main = $("#main")
+const categoria = $("#categoria")
+
 
 
 
@@ -12,22 +14,26 @@ mudaTema.on("click", function(){
             // window.alert("Oi");
             mudaTema.removeClass("temaLight");
             mudaTema.addClass("temaDark");
-            paginaTotal.removeClass("temaLight")
-            paginaTotal.addClass("temaDark")
-            header1.removeClass("temaLight")
-            header1.addClass("temaDark")
-            textoArea.removeClass("temaLight")
-            textoArea.addClass("temaDark")              
+            pagina.removeClass("temaLight")
+            pagina.addClass("temaDark")
+            bemVindo.removeClass("temaLight")
+            bemVindo.addClass("temaDark")
+            main.removeClass("temaLight")
+            main.addClass("temaDark")
+            categoria.removeClass("temaLight")
+            categoria.addClass("temaDark")                         
         
     }else{
         mudaTema.removeClass("temaDark");
         mudaTema.addClass("temaLight");
-        paginaTotal.removeClass("temaDark")
-        paginaTotal.addClass("temaLight")
-        header1.removeClass("temaDark")
-        header1.addClass("temaLight")
-        textoArea.removeClass("temaDark")
-        textoArea.addClass("temaLight")
+        pagina.removeClass("temaDark")
+        pagina.addClass("temaLight")
+        bemVindo.removeClass("temaDark")
+        bemVindo.addClass("temaLight")
+        main.removeClass("temaDark")
+        main.addClass("temaLight")
+        categoria.removeClass("temaDark")
+        categoria.addClass("temaLight")        
     }
 })
 
