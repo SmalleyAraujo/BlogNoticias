@@ -65,13 +65,14 @@
     }
     #post{
         width: 100%;
-        height: 150px;               
+        height: 160px;               
         line-height: 30px;        
     }
 
     .confImag{
         width: 50%;
-        height: 200px;
+        height: 150px;
+        margin-top: 20px; 
        
     }
 
@@ -120,6 +121,10 @@
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
+    }
+
+    footer{        
+        height: auto;        
     }
 
 
