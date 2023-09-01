@@ -202,6 +202,8 @@ header{
     background-size: cover; 
     background-position: center;
 }
+
+/* Inicio Img Index */
 #img1Carousel{
     background-image: url(../imagens/clima.jpg); 
    
@@ -212,6 +214,70 @@ header{
 #img3Carousel{
     background-image: url(../imagens/nasa-rTZW4f02zY8-unsplash.jpg);     
 } 
+/* Fim Img Index */
+/* Inicio Img Noticias */
+#img4Carousel{
+    background-image: url(../imagens/coletivaNoticias.jpg);     
+}
+#img5Carousel{
+    background-image: url(../imagens/jornalNoticias.jpg);     
+}
+#img6Carousel{
+    background-image: url(../imagens/leitoresNoticias.jpg);     
+}
+
+/* Fim Img Noticias */
+/* Inicio Img Eportes */
+#img7Carousel{
+    background-image: url(../imagens/surfEsportes.jpg);     
+}
+#img8Carousel{
+    background-image: url(../imagens/golfeEsportes.jpg);     
+}
+#img9Carousel{
+    background-image: url(../imagens/corridaEsportes.jpg);     
+}
+
+/* Fim Img Eportes */
+
+/* Inicio Img Economia */
+#img10Carousel{
+    background-image: url(../imagens/criptoEconomia.jpg);     
+}
+#img11Carousel{
+    background-image: url(../imagens/graficoEconomia.jpg);     
+}
+#img12Carousel{
+    background-image: url(../imagens/pregaoEconomia.jpg);     
+}
+
+/* Fim Img Economia */
+
+/* Inicio Img Clima */
+#img13Carousel{
+    background-image: url(../imagens/incendioClima.jpg);     
+}
+#img14Carousel{
+    background-image: url(../imagens/naturezaClima.jpg);     
+}
+#img15Carousel{
+    background-image: url(../imagens/queimadaClima.jpg);     
+}
+
+/* Fim Img Clima */
+
+/* Inicio Img Saúde */
+#img16Carousel{
+    background-image: url(../imagens/saladaSaude.jpg);     
+}
+#img17Carousel{
+    background-image: url(../imagens/exercicioSaude.jpg);     
+}
+#img18Carousel{
+    background-image: url(../imagens/meditacaoSaude.jpg);     
+}
+/* Fim Img Saúde */
+
 /* Fim carousel */
 
 
