@@ -144,6 +144,37 @@ nav button{
     display: none;
 }
 
+/* muda Tema */
+.buttonNav{
+    width: 10%;
+    display: flex;
+    justify-content:center;
+}
+
+#mudaTema{
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+
+#mudaTema:hover{
+    box-shadow: 5px 5px 5px white;
+    cursor: pointer;
+}
+
+.temaLight{
+    background-color: rgb(37, 187, 247);
+}
+
+.temaDark{
+    background-color: black;
+    color: white;
+}
+/* muda tema */
+
+
 /* Fim Nav */
 
 /* Inicio de Header */
