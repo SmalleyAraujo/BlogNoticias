@@ -278,10 +278,45 @@ header{
 }
 /* Fim Img Saúde */
 
+/* Inicio Viagens */
+#img19Carousel{
+    background-image: url(../imagens/baloesViagens.jpg);     
+}
+#img20Carousel{
+    background-image: url(../imagens/canionsViagens.jpg);     
+}
+#img21Carousel{
+    background-image: url(../imagens/mochileiroViagens.jpg);     
+}
+/* Fim Viagens */
+
+/* Inicio Inovação */
+#img22Carousel{
+    background-image: url(../imagens/calculosInovacao.jpg);     
+}
+#img23Carousel{
+    background-image: url(../imagens/motoInovacao.jpg);     
+}
+#img24Carousel{
+    background-image: url(../imagens/roboInovacao.jpg);     
+}
+/* Fim Inovação */
+
+/* Inicio Diversão */
+#img25Carousel{
+    background-image: url(../imagens/abacaxiDiversao.jpg);     
+}
+#img26Carousel{
+    background-image: url(../imagens/brinquedoDiversao.jpg);     
+}
+#img27Carousel{
+    background-image: url(../imagens/dogDiversao.jpg);     
+}
+
+/* Fim Diversão */
+
+
 /* Fim carousel */
-
-
-
 
 
 #apresentacao{
