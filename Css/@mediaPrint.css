@@ -7,14 +7,18 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     nav{
-        height: 40px;
+        
         background-color: dimgrey;
     }
     #post2{
-        margin-top: 80px;
+        margin-top: 150px;
         gap: 20px;
     }
-
+    /* Por segurança Modo Dark desabilitado o print para não haver nenhum prejuizo ao usuario */
+    .temaDark{
+        background-color: white;
+    }
+    /*  */
     #categoria{
         margin-top: 0px;
     }
@@ -23,10 +27,9 @@
     }
     footer{
         margin-top: 0px;
+        background-color: dimgrey;
     }
     p{
         font-size: 12pt;
-        background-color: dimgrey;
-        
     }
 }
