@@ -38,11 +38,21 @@
     justify-content: flex-end;
     align-items: flex-start;    
     }
-
-    header{
+    /* Inicio carousel */
+    #controlAltCarousel{
+    height: 200px; 
+    overflow: hidden;
+    } 
+   .ajusteImgCarousel{
+    height: 200px; 
+    background-size: cover; 
+    background-position: center;
+    }
+   
+    /* Fim carousel */
+    #apresentacao{
     width: 100%;
     height: auto;    
-    
     background-color: aquamarine;
     display: flex;
     flex-direction: column  ;

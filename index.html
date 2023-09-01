@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/@mediaMobile.css">
     <link rel="stylesheet" href="Css/paisagem.css" media="screen and (orientation : landscape)">
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
     
 </head>
 <body>
@@ -18,7 +20,7 @@
                 
                 <ul id="linkNavList">
                     <li>
-                        <h1 class="linkLilas">Home</h1>
+                        <a href="#" class="linkLilas"><h2>Home</h2></a>                        
                     </li>
                     <li>
                         <a href="#" class="linkRosa" id="noticias">Notícias</a>
@@ -199,15 +201,51 @@
             </div>
             
         </nav>
-                
         <header>
-            <div id="post">
-                <h1>Bem vindo ao meu blog de notícias!</h1>  
-                <p>Aqui você encontra tudo em um só lugar...</p>             
-            </div>
-            <div class="confImag" id="imgHeader"></div>
-        </header>
+             <!-- CARROSEL -->
+             <div class="carousel slide" id="demo" data-bs-ride="carousel">
+                <!-- SLIDER -->
+                <div class="carousel-inner" id="controlAltCarousel">
+                    <!--overflow: hidden; tudo que estourar esconde  -->
+                    <div class="carousel-item active ajusteImgCarousel" id="img1Carousel">
+                        <div class="d-flex align-content-center flex-wrap textAltCarrousel" >
+                            <h2>Tenha N Possibilidades de produtos para N Possibilidades na vida</h2>
+                        </div>                        
+                    </div>
 
+                    <div class="carousel-item ajusteImgCarousel" id="img2Carousel">
+                        <div class="d-flex align-content-center flex-wrap textAltCarrousel">
+                            <h2>Você no controle da sua vida financeira!</h2> 
+                        </div>                                           
+                    </div>
+
+                    <div class="carousel-item ajusteImgCarousel" id="img3Carousel">
+                        <div class="d-flex align-content-center flex-wrap textAltCarrousel">
+                            <h2>Transparente, seguro e do seu jeito!</h2> 
+                        </div>                        
+                    </div>                   
+                    <!-- o carrosel funciona como array começando a contar do zero, o active é para definir o primeiro que vai rodar-->
+                </div>
+            
+                <!-- CONTROLADORES SETAS -->
+                <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        <!-- Inicio Carousel -->
+       
+            <section id="apresentacao">
+                <div id="post">
+                    <h1>Bem vindo ao meu blog de notícias!</h1>  
+                    <p>Aqui você encontra tudo em um só lugar...</p>             
+                </div>
+                <div class="confImag" id="imgHeader"></div>
+             </section>
+        </header>
+        <!-- Fim Carousel -->
         <main>            
 
             <div id="post2">
@@ -321,5 +359,7 @@
 
     <script src="Js/code.jquery.com_jquery-3.7.1.js"></script>
     <script src="Js/script.js"></script>
+    <script src="Js/bootstrap.bundle.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

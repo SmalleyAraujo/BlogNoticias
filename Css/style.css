@@ -1,3 +1,18 @@
+/* @keyframes fonts */
+
+@font-face {
+    font-family:josefin;
+    src: url(../fontes/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:sachila;
+    src: url(../fontes/sachila_residance/Sachila\ Residance.ttf);
+}
+
+/* @keyframes fonts */
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -133,6 +148,44 @@ nav button{
 
 /* Inicio de Header */
 header{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+/* Inicio carousel */
+#controlAltCarousel{
+    height: 600px; 
+    overflow: hidden;
+} 
+.textAltCarrousel{
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.ajusteImgCarousel{
+    height: 600px; 
+    background-size: cover; 
+    background-position: center;
+}
+#img1Carousel{
+    background-image: url(../imagens/clima.jpg); 
+   
+}
+#img2Carousel{
+    background-image: url(../imagens/natacao.jpg);     
+} 
+#img3Carousel{
+    background-image: url(../imagens/nasa-rTZW4f02zY8-unsplash.jpg);     
+} 
+/* Fim carousel */
+
+
+
+
+
+#apresentacao{
     width: 50%;
     height: 600px;
     margin: 50px auto;
@@ -142,6 +195,7 @@ header{
     background: linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
@@ -179,9 +233,17 @@ main{
     margin: 0px auto;
 }
 p{
+    font-family: sachila;
     text-align: justify;
     padding: 15px 20px;
 }
+
+h1{
+    font-family: josefin;
+    font-size: 25pt;
+    padding-top: 15px;
+}
+
 
 /* Inicio post1 */
 
@@ -192,9 +254,7 @@ p{
     text-align: center;
 }
 
-hr{
-    width: 100%;
-}
+
 /* fim post2 */
 
 /* inicio post3 */
