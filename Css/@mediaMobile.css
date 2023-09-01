@@ -42,6 +42,9 @@
     #controlAltCarousel{
     height: 200px; 
     overflow: hidden;
+    }
+    .textAltCarrousel{        
+        height: 200px;         
     } 
    .ajusteImgCarousel{
     height: 200px; 
@@ -62,17 +65,21 @@
     }
     #post{
         width: 100%;
-        height: auto;               
-        line-height: 30px;
-        
+        height: 150px;               
+        line-height: 30px;        
+    }
+
+    .confImag{
+        width: 50%;
+        height: 200px;
+       
     }
 
    
     main{
         width: 100%;
         height: auto;
-        margin: 0px auto;
-       
+        margin: 0px auto;       
     }
     #post2{
         width: 100%;
