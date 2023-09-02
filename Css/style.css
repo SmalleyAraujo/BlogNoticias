@@ -1,3 +1,17 @@
+/* @keyframes animation */
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* @keyframes fonts */
 /* @keyframes fonts */
 
 @font-face {
@@ -35,6 +49,9 @@ nav{
     display: flex;
     justify-content:center;
     align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
      
 }
 
@@ -94,9 +111,14 @@ nav button{
     display: flex;
     justify-content:space-between;    
 }
+#blocosNav a{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
 .close{
     display: flex; 
     justify-content:space-between;
+    
 } 
 .sumir{
     width: 30px;
