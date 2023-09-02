@@ -1,3 +1,19 @@
 #pagina{
+    width: 100%;
+    height: auto;
+}
+nav{
+    /* width: 100%; */
+    background-color: pink;
+}
+header{
+    width: 50%;
     margin: 0px auto;
+}
+main{
+    width: 50%;
+    margin: 0px auto;
+}
+footer{    
+    background-color: pink;
 }

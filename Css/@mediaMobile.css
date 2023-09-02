@@ -97,7 +97,16 @@
         display: flex;
         flex-direction: column;        
         align-items: center;
+        
 
+    }
+    #dimensoesImg{
+        width: 60%;         
+        border: 5px solid rgb(230, 6, 6);
+        border-radius: 15px;
+        box-shadow: 20px 3px 20px rgb(240, 133, 133);
+        margin-bottom: 50px;
+        
     }
     #conteudo{
         width: 100%;
