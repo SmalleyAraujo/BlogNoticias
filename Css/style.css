@@ -488,6 +488,27 @@ h1{
     background-image: url(../imagens/entretenimento.jpg);
 }
 
+/* Imagem pagina Economia */
+#imgEco1{
+    background-image: url(../imagens/ctps_Economia.jpg);
+}
+#imgEco2{
+    background-image: url(../imagens/energia_Economia.jpg);
+}
+#imgEco3{
+    background-image: url(../imagens/gasolina_Economia.jpg);
+}
+#imgEco4{
+    background-image: url(../imagens/cartao_Economia.jpg);
+}
+#imgEco5{
+    background-image: url(../imagens/cartao2_Economia.jpg);
+}
+#imgEco6{
+    background-image: url(../imagens/metrô_Economia.jpg);
+}
+
+
 
 .colorH3{
     color: rgb(224, 50, 209);

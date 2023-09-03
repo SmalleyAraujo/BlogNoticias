@@ -55,7 +55,7 @@
     /* Fim carousel */
     #apresentacao{
     width: 100%;
-    height: auto;    
+    height: 250px;    
     background-color: aquamarine;
     display: flex;
     flex-direction: column  ;
@@ -65,17 +65,21 @@
     }
     #post{
         width: 100%;
-        height: 160px;               
-        line-height: 30px;        
+        color: white;              
+        line-height: 20px;    
+        padding: 5px 5px;    
     }
 
-    .confImag{
+    /* .confImag{
         width: 50%;
         height: 150px;
         margin-top: 20px; 
        
+    } */
+    #imgHeader{
+        background-image: url();
     }
-
+    
    
     main{
         width: 100%;
