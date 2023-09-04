@@ -3,7 +3,7 @@ const pagina = $("#pagina")
 const bemVindo = $("#bemVindo")
 const main = $("#main")
 const categoria = $("#categoria")
-
+const morcegos = $("#morcegos")
 
 
 
@@ -22,7 +22,7 @@ mudaTema.on("click", function(){
             main.addClass("temaDark")
             categoria.removeClass("temaLight")
             categoria.addClass("temaDark")                         
-        
+            morcegos.show(500).animate({marginLeft: "250px", rotate: "-360deg", marginTop: "100px"},{duration:2000})
     }else{
         mudaTema.removeClass("temaDark");
         mudaTema.addClass("temaLight");
@@ -33,7 +33,8 @@ mudaTema.on("click", function(){
         main.removeClass("temaDark")
         main.addClass("temaLight")
         categoria.removeClass("temaDark")
-        categoria.addClass("temaLight")        
+        categoria.addClass("temaLight") 
+        morcegos.hide(500).animate({marginLeft: "0px", rotate: "-360deg", marginTop: "100px"},{duration:2000})       
     }
 })
 
