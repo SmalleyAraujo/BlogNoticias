@@ -124,16 +124,15 @@ nav button{
     width: 100%;
     height: auto;    
     display: flex;
-    justify-content:space-between;    
+    justify-content:space-between;     
 }
 #blocosNav a{
     animation-duration: 1s;
-    animation-name: slidein;
+    animation-name: slidein;   
 }
 .close{
     display: flex; 
-    justify-content:space-between;
-    
+    justify-content:space-between;    
 } 
 .sumir{
     width: 30px;
