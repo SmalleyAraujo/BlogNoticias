@@ -40,6 +40,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+::-webkit-scrollbar{
+    width: 0%;
+}
 
 /* Inicio Nav */
 nav{
