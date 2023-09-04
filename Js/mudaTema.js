@@ -22,7 +22,7 @@ mudaTema.on("click", function(){
             main.addClass("temaDark")
             categoria.removeClass("temaLight")
             categoria.addClass("temaDark")                         
-            morcegos.show(500).animate({marginLeft: "250px", rotate: "-360deg", marginTop: "100px"},{duration:2000})
+            morcegos.show(500).animate({marginLeft: "200px", rotate: "-360deg", marginTop: "100px"},{duration:2000})
     }else{
         mudaTema.removeClass("temaDark");
         mudaTema.addClass("temaLight");
